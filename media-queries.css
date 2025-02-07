@@ -1,0 +1,201 @@
+@media (max-width : 992px){
+    .header{
+        padding: 2% 5%;
+    }
+    .container{
+        padding: 0 50px;
+    }
+    .plan__body{
+        padding: 25px 50px;
+        grid-template: 1fr/ 1fr
+    }
+    .aboutUs{
+        padding: 100px 0;
+        background: url(img/clouds.svg) no-repeat center;
+    }
+    .aboutUs__body{
+        grid-template: 1fr/ 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+    .aboutUs__body span{
+        display: none;
+    }
+    .blog__block-title p{
+        padding: 20px 0 40px 0;
+    }
+    .blog__block{
+        margin: 0 70px;
+    }
+    .coments__block{
+        padding: 100px 0 50px 50px;
+    }
+    .coment-swiper .swiper-pagination{
+        position: absolute;
+        bottom: 0;
+        left: -8%;
+    }    
+}
+@media (max-width:767px){
+    .container{
+        padding: 0 15px;
+    }
+    .header__social{
+        display: none;
+    }
+    body.lock{
+        overflow: hidden;
+    }
+    .header{
+        grid-template-columns: minmax(auto, 30px) 1fr 1fr;
+        gap: 10px;
+        padding: 2% 2%;
+    }
+    .burger__menu{
+        display: block;
+        grid-area: 1;
+    }
+    .header__menu{
+        position: fixed;
+        left: -100%;
+        transition: 0.5s;
+        top: 10%;
+        padding: 25px 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+    }
+    .header.active .header__menu{
+        left: 0;
+    }
+    .menu__list{
+        display: grid;
+        grid-template: 1fr 1fr 1fr 1fr/1fr;
+        text-align: center;
+    }
+    .menu__link{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .hero{
+        background: none;
+        padding-top: 90px;
+    }
+    .hero .pagination{
+        padding-top: 50px;
+    }
+    .logos{
+        margin: 10px 0 0 0;
+    }
+    .logo__list{
+        grid-template:1fr 1fr 1fr 1fr 1fr/1fr;
+        justify-items: center;
+        gap: 40px;
+    }
+    .hero__body-play{
+        padding: 20px 0;
+    }
+    .hero__body-aitems{
+        margin-bottom: 0px;
+    }
+    .plan__body{
+        padding: 25px 15px;
+    }
+    .aboutUs{
+        background: none;
+        padding: 20px 0;
+    }
+    .aboutUs span{
+        display: none;
+    }
+    .aboutUs__body{
+        grid-template: 1fr 1fr/1fr 1fr; 
+        gap: 30px;
+        padding: 10px 0;
+    }
+    .aboutUs__footer{
+        padding: 10px 0;
+        grid-template: 1fr/ 1fr minmax(auto, 80px) 1fr;
+        justify-content: center;
+    }
+    .about__or{
+        grid-template: 1fr/ 1fr;
+    }
+    .static__body{
+        grid-template: 1fr  1fr/1fr;
+    }
+    .left, .right{
+        text-align: center;
+    }
+    .blog__block{
+        grid-template: 1fr/ 1fr;
+        margin: 0 20px;
+    }
+    .blog__block-img{
+        display: none;
+    }
+    .blog__btn a{
+        display: block;
+    }
+    .blog .pagination{
+        padding: 20px 0;
+    }
+    .blog{
+        padding: 20px 0;
+    }
+    .blog__title, .titles{
+        padding: 15px;
+    }
+    .coment{
+        padding: 20px;
+    }
+    .coments__block{
+        padding: 20px 0 20px 20px;
+        grid-template: minmax(auto, 220px) 1fr/ 1fr;
+    }
+    .coment-swiper .swiper-pagination{
+        position: absolute;
+        bottom: 0;
+        left: -5%;
+    }  
+    .questions{
+        padding: 20px 0;
+    }
+    .questions__titles h6{
+        padding-bottom: 10px;
+    }
+    details{
+        padding: 20px 0;
+    }
+    .details__text{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .startNow{
+        margin: 0;
+        padding: 30px 0px;
+    }
+    .start__btn{
+        display: block;
+        flex-wrap: nowrap;
+        padding: 25px 0 0 0;
+    }
+    .start__btn a{
+        display: block;
+    }
+    .start__titles h2{
+        padding: 5px 0;
+    }
+    .subNews__body{
+        grid-template: minmax(auto, 40%) 1fr/ 1fr;
+        padding: 30px 0;
+    }
+    .subNews__email{
+        grid-template: 1fr 1fr/ 1fr;
+    }
+    .saveMe{
+        max-width: 100%;
+    }
+    .footer__menu .header__logo{
+        display: none;
+    }
+}
